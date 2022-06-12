@@ -1,19 +1,16 @@
 package com.bonn2;
 
 import com.bonn2.modules.Module;
+import com.bonn2.modules.settings.Settings;
+import com.bonn2.modules.settings.types.Setting;
 import net.dv8tion.jda.api.interactions.commands.build.CommandData;
 
 public class Main extends Module {
 
-    public Main() {
-        name = "External";
-        version = "v1.0";
-        priority = Priority.POST_JDA_LOW;
-    }
-
     @Override
     public void registerSettings() {
-
+        Settings.register(this, "example", Setting.Type.STRING, "",
+                "This is an example setting, that is different for every server.");
     }
 
     @Override
