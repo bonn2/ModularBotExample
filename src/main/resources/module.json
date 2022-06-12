@@ -1,7 +1,0 @@
-{
-  "name": "ExternalTest",
-  "version": "1.0",
-  "depends": [
-    "Settings"
-  ]
-}
