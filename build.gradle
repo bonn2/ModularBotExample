@@ -6,9 +6,8 @@ group 'net.bonn2'
 
 repositories {
     mavenCentral()
-    mavenLocal()
 }
 
 dependencies {
-    compileOnly('net.bonn2:modular-bot:1.0.0-alpha.1')
+    compileOnly('net.bonn2:ModularBot:1.0.0-alpha.1')
 }
